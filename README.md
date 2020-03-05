@@ -11,3 +11,4 @@ python AugieBuddy_GUI.py #for python < 3
 ```
  
 ### preview
+![preview](https://github.com/yohanneshabte/AugieWalk/blob/master/preview.png)
