@@ -44,7 +44,7 @@ Static, no build step, no framework (~25 KB of HTML/CSS/JS + map webp).
 Run locally: `cd web && python3 -m http.server 8000` → http://localhost:8000
 (geolocation and service workers need `localhost` or HTTPS).
 
-Deploy: `.github/workflows/pages.yml` publishes `/web` on pushes to `master`. Enable it once in
+Deploy: `ci/pages.yml` (move to `.github/workflows/`; see `ci/README.md`) publishes `/web` on pushes to `master`. Enable it once in
 **Settings → Pages → Source: GitHub Actions**.
 
 ## Limitations
