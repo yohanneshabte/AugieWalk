@@ -8,6 +8,38 @@
  "walk_speed_mps": 1.35,
  "weight": "px",
  "notes": "Pixel coords on the map photo (north arrow points bottom-left). Edges are straight-line approximations of walkways. lat/lng are APPROXIMATE (affine fit on 3 reference points: Viejas Arena, Love Library, Hepner Hall).",
+ "geo": {
+  "approximate": true,
+  "references": [
+   {
+    "name": "Viejas Arena",
+    "lat": 32.77375,
+    "lng": -117.074583
+   },
+   {
+    "name": "Love Library",
+    "lat": 32.77536,
+    "lng": -117.070389
+   },
+   {
+    "name": "Hepner Hall",
+    "lat": 32.77583,
+    "lng": -117.07111
+   }
+  ],
+  "px_from_latlng": [
+   [
+    329518.75662198476,
+    -65026.943338113815,
+    -18411794.21832067
+   ],
+   [
+    -16390.94113952969,
+    129230.76081077266,
+    15667188.721184293
+   ]
+  ]
+ },
  "nodes": [
   {
    "id": "b1",

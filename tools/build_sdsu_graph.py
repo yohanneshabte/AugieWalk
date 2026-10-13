@@ -74,6 +74,8 @@ for a,b in sorted(pairs):
 out = {"campus":"sdsu","name":"San Diego State University","image":"sdsu_map.jpg","width":1836,"height":1466,
  "meters_per_pixel":round(mpp,4),"walk_speed_mps":1.35,"weight":"px",
  "notes":"Pixel coords on the map photo (north arrow points bottom-left). Edges are straight-line approximations of walkways. lat/lng are APPROXIMATE (affine fit on 3 reference points: Viejas Arena, Love Library, Hepner Hall).",
+ "geo":{"approximate":True,"references":[{"name":n,"lat":l[0],"lng":l[1]} for n,l in zip(["Viejas Arena","Love Library","Hepner Hall"],[r[1] for r in REF])],
+   "px_from_latlng":[[c*S for c in solve3([[l[0],l[1],1] for _,l in REF],[p[i] for p,_ in REF])] for i in (0,1)]},
  "nodes":nodes,"edges":edges}
 pathlib.Path(__file__).resolve().parents[1].joinpath("data/sdsu_graph.json").write_text(json.dumps(out, indent=1))
 print(len(nodes), len(edges), mpp)
