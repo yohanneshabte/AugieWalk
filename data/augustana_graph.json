@@ -1,0 +1,131 @@
+{
+ "campus": "augustana",
+ "name": "Augustana University",
+ "weight": "seconds",
+ "image": "../campus_map.jpg",
+ "notes": "Ported from AugieBuddy_V3.py; weights are walking seconds.",
+ "nodes": [
+  {
+   "id": "1",
+   "name": "Solberg",
+   "type": "building"
+  },
+  {
+   "id": "2",
+   "name": "Bergsaker",
+   "type": "building"
+  },
+  {
+   "id": "3",
+   "name": "Froiland",
+   "type": "building"
+  },
+  {
+   "id": "4",
+   "name": "Intersection 1",
+   "type": "junction"
+  },
+  {
+   "id": "5",
+   "name": "Madsen Center",
+   "type": "building"
+  },
+  {
+   "id": "6",
+   "name": "Humanities",
+   "type": "building"
+  },
+  {
+   "id": "7",
+   "name": "Intersection with Chapel",
+   "type": "junction"
+  },
+  {
+   "id": "8",
+   "name": "Western Studies",
+   "type": "building"
+  },
+  {
+   "id": "9",
+   "name": "Library",
+   "type": "building"
+  },
+  {
+   "id": "10",
+   "name": "The Commons",
+   "type": "building"
+  }
+ ],
+ "edges": [
+  {
+   "from": "1",
+   "to": "4",
+   "seconds": 60
+  },
+  {
+   "from": "1",
+   "to": "6",
+   "seconds": 115
+  },
+  {
+   "from": "2",
+   "to": "4",
+   "seconds": 51
+  },
+  {
+   "from": "2",
+   "to": "3",
+   "seconds": 92
+  },
+  {
+   "from": "3",
+   "to": "5",
+   "seconds": 59
+  },
+  {
+   "from": "4",
+   "to": "5",
+   "seconds": 60
+  },
+  {
+   "from": "4",
+   "to": "6",
+   "seconds": 77
+  },
+  {
+   "from": "5",
+   "to": "7",
+   "seconds": 68
+  },
+  {
+   "from": "6",
+   "to": "7",
+   "seconds": 57
+  },
+  {
+   "from": "6",
+   "to": "10",
+   "seconds": 70
+  },
+  {
+   "from": "7",
+   "to": "8",
+   "seconds": 68
+  },
+  {
+   "from": "7",
+   "to": "10",
+   "seconds": 66
+  },
+  {
+   "from": "8",
+   "to": "9",
+   "seconds": 103
+  },
+  {
+   "from": "9",
+   "to": "10",
+   "seconds": 82
+  }
+ ]
+}

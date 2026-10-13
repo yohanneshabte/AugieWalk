@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AugieWalk · SDSU</title>
+<meta name="description" content="Offline-friendly walking directions around the SDSU campus.">
+<meta name="theme-color" content="#f3ebdd">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="AugieWalk">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preload" href="img/sdsu_map_sm.webp" as="image" type="image/webp">
+<link rel="modulepreload" href="app.js">
+<link rel="stylesheet" href="lib/theme-bubbles/theme-bubbles.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<main id="map" aria-label="Campus map">
+  <div id="stage">
+    <img id="mapimg" src="img/sdsu_map_sm.webp" width="1836" height="1466" alt="SDSU campus map" decoding="async" fetchpriority="high">
+    <svg id="overlay" viewBox="0 0 1836 1466" aria-hidden="true"><polyline id="routeLine"/><g id="marks"></g><circle id="me" r="16" hidden/></svg>
+  </div>
+</main>
+
+<header class="top">
+  <h1>AugieWalk <span>SDSU</span></h1>
+  <div id="themes"></div>
+</header>
+
+<section class="sheet" id="sheet">
+  <form id="form" autocomplete="off">
+    <label class="field"><span>From</span><input id="from" list="places" placeholder="Search building…" enterkeyhint="next"></label>
+    <button type="button" id="swap" class="icon" aria-label="Swap from and to">⇅</button>
+    <label class="field"><span>To</span><input id="to" list="places" placeholder="Search building…" enterkeyhint="go"></label>
+    <datalist id="places"></datalist>
+  </form>
+  <div id="summary" class="summary" hidden>
+    <div><strong id="dist"></strong><small>distance</small></div>
+    <div><strong id="time"></strong><small>walk</small></div>
+    <button id="go" class="primary">Go ▶</button>
+  </div>
+  <ol id="steps" class="steps"></ol>
+  <div class="row">
+    <button id="locate" class="ghost">◎ Locate me</button>
+    <button id="offline" class="ghost">⬇ Download for offline</button>
+  </div>
+  <progress id="prog" max="1" value="0" hidden></progress>
+  <p class="fine">Coordinates and distances are approximate. Map © SDSU.</p>
+</section>
+
+<section id="gomode" hidden aria-live="polite">
+  <div class="card">
+    <div id="goArrow" class="arrow">↑</div>
+    <div><div id="goText" class="gotext"></div><div id="goSub" class="gosub"></div></div>
+  </div>
+  <div class="gobar">
+    <button id="prev" class="big" aria-label="Previous step">‹</button>
+    <div class="gomid"><strong id="goLeft"></strong><small id="goGps">GPS off</small></div>
+    <button id="next" class="big" aria-label="Next step">›</button>
+  </div>
+  <button id="exit" class="exit" aria-label="Exit go mode">✕</button>
+</section>
+<script type="module" src="app.js"></script>
+</body>
+</html>
