@@ -1,0 +1,1641 @@
+{
+ "campus": "sdsu",
+ "name": "San Diego State University",
+ "image": "sdsu_map.jpg",
+ "width": 1836,
+ "height": 1466,
+ "meters_per_pixel": 0.59,
+ "walk_speed_mps": 1.35,
+ "weight": "px",
+ "notes": "Pixel coords on the map photo (north arrow points bottom-left). Edges are straight-line approximations of walkways. lat/lng are APPROXIMATE (affine fit on 3 reference points: Viejas Arena, Love Library, Hepner Hall).",
+ "nodes": [
+  {
+   "id": "b1",
+   "name": "Viejas Arena",
+   "type": "building",
+   "x": 773.4,
+   "y": 358.7,
+   "lat": 32.77375,
+   "lng": -117.074583
+  },
+  {
+   "id": "b2",
+   "name": "Aztec Recreation Center",
+   "type": "building",
+   "x": 818.2,
+   "y": 224.2,
+   "lat": 32.773679,
+   "lng": -117.075633
+  },
+  {
+   "id": "b3",
+   "name": "Peterson Gym",
+   "type": "building",
+   "x": 739.8,
+   "y": 67.3,
+   "lat": 32.773189,
+   "lng": -117.076909
+  },
+  {
+   "id": "b4",
+   "name": "Parking Structure 12",
+   "type": "building",
+   "x": 1094.0,
+   "y": 358.7,
+   "lat": 32.774748,
+   "lng": -117.074456
+  },
+  {
+   "id": "b5",
+   "name": "Parking Lot 13",
+   "type": "building",
+   "x": 896.7,
+   "y": 369.9,
+   "lat": 32.774151,
+   "lng": -117.074445
+  },
+  {
+   "id": "b6",
+   "name": "Rec Field 103",
+   "type": "building",
+   "x": 1244.2,
+   "y": 224.2,
+   "lat": 32.775005,
+   "lng": -117.075464
+  },
+  {
+   "id": "b7",
+   "name": "ENS 700",
+   "type": "building",
+   "x": 721.8,
+   "y": 645.6,
+   "lat": 32.774039,
+   "lng": -117.072326
+  },
+  {
+   "id": "b8",
+   "name": "Music",
+   "type": "building",
+   "x": 847.4,
+   "y": 661.3,
+   "lat": 32.774454,
+   "lng": -117.072152
+  },
+  {
+   "id": "b9",
+   "name": "Dramatic Arts",
+   "type": "building",
+   "x": 1002.1,
+   "y": 672.5,
+   "lat": 32.774953,
+   "lng": -117.072002
+  },
+  {
+   "id": "b10",
+   "name": "Smith Recital Hall",
+   "type": "building",
+   "x": 885.5,
+   "y": 751.0,
+   "lat": 32.774713,
+   "lng": -117.071425
+  },
+  {
+   "id": "b11",
+   "name": "Scripps Cottage",
+   "type": "building",
+   "x": 986.4,
+   "y": 571.6,
+   "lat": 32.774746,
+   "lng": -117.072809
+  },
+  {
+   "id": "b12",
+   "name": "Adams Humanities",
+   "type": "building",
+   "x": 739.8,
+   "y": 863.1,
+   "lat": 32.774435,
+   "lng": -117.070593
+  },
+  {
+   "id": "b13",
+   "name": "Love Library",
+   "type": "building",
+   "x": 1031.2,
+   "y": 874.3,
+   "lat": 32.77536,
+   "lng": -117.070389
+  },
+  {
+   "id": "b14",
+   "name": "Open Air Theatre",
+   "type": "building",
+   "x": 885.5,
+   "y": 896.7,
+   "lat": 32.774942,
+   "lng": -117.070269
+  },
+  {
+   "id": "b15",
+   "name": "Hepner Hall",
+   "type": "building",
+   "x": 1233.0,
+   "y": 773.4,
+   "lat": 32.77583,
+   "lng": -117.07111
+  },
+  {
+   "id": "b16",
+   "name": "Communication",
+   "type": "building",
+   "x": 1289.0,
+   "y": 717.4,
+   "lat": 32.775917,
+   "lng": -117.071532
+  },
+  {
+   "id": "b17",
+   "name": "Professional Studies & Fine Arts",
+   "type": "building",
+   "x": 1401.1,
+   "y": 717.4,
+   "lat": 32.776266,
+   "lng": -117.071488
+  },
+  {
+   "id": "b18",
+   "name": "Nasatir Hall",
+   "type": "building",
+   "x": 1300.2,
+   "y": 470.8,
+   "lat": 32.775565,
+   "lng": -117.073485
+  },
+  {
+   "id": "b19",
+   "name": "Storm Hall",
+   "type": "building",
+   "x": 1345.1,
+   "y": 425.9,
+   "lat": 32.775635,
+   "lng": -117.073824
+  },
+  {
+   "id": "b20",
+   "name": "Storm Hall West",
+   "type": "building",
+   "x": 1255.4,
+   "y": 414.7,
+   "lat": 32.775338,
+   "lng": -117.073948
+  },
+  {
+   "id": "b21",
+   "name": "Arts & Letters",
+   "type": "building",
+   "x": 1490.8,
+   "y": 538.0,
+   "lat": 32.776264,
+   "lng": -117.072877
+  },
+  {
+   "id": "b22",
+   "name": "Art South",
+   "type": "building",
+   "x": 1524.4,
+   "y": 739.8,
+   "lat": 32.776684,
+   "lng": -117.071262
+  },
+  {
+   "id": "b23",
+   "name": "Life Sciences South",
+   "type": "building",
+   "x": 1412.3,
+   "y": 863.1,
+   "lat": 32.776529,
+   "lng": -117.070327
+  },
+  {
+   "id": "b24",
+   "name": "Physical Sciences",
+   "type": "building",
+   "x": 1345.1,
+   "y": 941.5,
+   "lat": 32.776442,
+   "lng": -117.069732
+  },
+  {
+   "id": "b25",
+   "name": "Physics & Astronomy",
+   "type": "building",
+   "x": 1244.2,
+   "y": 941.5,
+   "lat": 32.776128,
+   "lng": -117.069771
+  },
+  {
+   "id": "b26",
+   "name": "Engineering",
+   "type": "building",
+   "x": 1445.9,
+   "y": 1020.0,
+   "lat": 32.776879,
+   "lng": -117.069069
+  },
+  {
+   "id": "b27",
+   "name": "Engineering & Interdisciplinary Sciences",
+   "type": "building",
+   "x": 1345.1,
+   "y": 1053.6,
+   "lat": 32.776618,
+   "lng": -117.068842
+  },
+  {
+   "id": "b28",
+   "name": "Administration",
+   "type": "building",
+   "x": 1143.3,
+   "y": 952.7,
+   "lat": 32.775832,
+   "lng": -117.069722
+  },
+  {
+   "id": "b29",
+   "name": "Manchester Hall",
+   "type": "building",
+   "x": 863.1,
+   "y": 1008.8,
+   "lat": 32.775047,
+   "lng": -117.069388
+  },
+  {
+   "id": "b30",
+   "name": "Aztec Student Union",
+   "type": "building",
+   "x": 818.2,
+   "y": 1109.7,
+   "lat": 32.775066,
+   "lng": -117.068605
+  },
+  {
+   "id": "b31",
+   "name": "Student Services West",
+   "type": "building",
+   "x": 941.5,
+   "y": 1154.5,
+   "lat": 32.77552,
+   "lng": -117.0682
+  },
+  {
+   "id": "b32",
+   "name": "Education",
+   "type": "building",
+   "x": 1008.8,
+   "y": 1210.5,
+   "lat": 32.775817,
+   "lng": -117.067729
+  },
+  {
+   "id": "b33",
+   "name": "North Education",
+   "type": "building",
+   "x": 1109.7,
+   "y": 1199.3,
+   "lat": 32.776113,
+   "lng": -117.067778
+  },
+  {
+   "id": "b34",
+   "name": "Geology, Mathematics & Computer Science",
+   "type": "building",
+   "x": 1255.4,
+   "y": 1165.7,
+   "lat": 32.776514,
+   "lng": -117.067988
+  },
+  {
+   "id": "b35",
+   "name": "Chemical Sciences Laboratory",
+   "type": "building",
+   "x": 1289.0,
+   "y": 1311.4,
+   "lat": 32.776847,
+   "lng": -117.066818
+  },
+  {
+   "id": "b36",
+   "name": "Lamden Hall",
+   "type": "building",
+   "x": 986.4,
+   "y": 1356.3,
+   "lat": 32.775975,
+   "lng": -117.066581
+  },
+  {
+   "id": "b37",
+   "name": "SDSU Transit Center (Trolley)",
+   "type": "building",
+   "x": 650.1,
+   "y": 986.4,
+   "lat": 32.774349,
+   "lng": -117.06965
+  },
+  {
+   "id": "b38",
+   "name": "Gateway Center",
+   "type": "building",
+   "x": 459.6,
+   "y": 616.5,
+   "lat": 32.773177,
+   "lng": -117.072661
+  },
+  {
+   "id": "b39",
+   "name": "KPBS",
+   "type": "building",
+   "x": 437.1,
+   "y": 717.4,
+   "lat": 32.773265,
+   "lng": -117.071869
+  },
+  {
+   "id": "b40",
+   "name": "Parking Structure 6",
+   "type": "building",
+   "x": 448.4,
+   "y": 425.9,
+   "lat": 32.772844,
+   "lng": -117.074178
+  },
+  {
+   "id": "b41",
+   "name": "Parking Lot 5",
+   "type": "building",
+   "x": 313.8,
+   "y": 739.8,
+   "lat": 32.772916,
+   "lng": -117.07174
+  },
+  {
+   "id": "b42",
+   "name": "Speech, Language & Hearing Sciences",
+   "type": "building",
+   "x": 459.6,
+   "y": 863.1,
+   "lat": 32.773563,
+   "lng": -117.070703
+  },
+  {
+   "id": "b43",
+   "name": "South Campus Plaza",
+   "type": "building",
+   "x": 515.6,
+   "y": 1042.4,
+   "lat": 32.774018,
+   "lng": -117.069258
+  },
+  {
+   "id": "b44",
+   "name": "College Square",
+   "type": "building",
+   "x": 313.8,
+   "y": 1143.3,
+   "lat": 32.773548,
+   "lng": -117.068537
+  },
+  {
+   "id": "b45",
+   "name": "Maya Hall",
+   "type": "building",
+   "x": 313.8,
+   "y": 1300.2,
+   "lat": 32.773794,
+   "lng": -117.067292
+  },
+  {
+   "id": "b46",
+   "name": "Tenochca Residence Hall",
+   "type": "building",
+   "x": 313.8,
+   "y": 1356.3,
+   "lat": 32.773882,
+   "lng": -117.066847
+  },
+  {
+   "id": "b47",
+   "name": "Cuicacalli Residence Hall",
+   "type": "building",
+   "x": 560.4,
+   "y": 1322.6,
+   "lat": 32.774597,
+   "lng": -117.067017
+  },
+  {
+   "id": "b48",
+   "name": "University Towers",
+   "type": "building",
+   "x": 134.5,
+   "y": 224.2,
+   "lat": 32.771551,
+   "lng": -117.075903
+  },
+  {
+   "id": "b49",
+   "name": "Parking Lot 14",
+   "type": "building",
+   "x": 1524.4,
+   "y": 437.1,
+   "lat": 32.77621,
+   "lng": -117.073664
+  },
+  {
+   "id": "b50",
+   "name": "Parking Structure 15",
+   "type": "building",
+   "x": 1625.3,
+   "y": 257.8,
+   "lat": 32.776244,
+   "lng": -117.075047
+  },
+  {
+   "id": "b51",
+   "name": "Parking Structure 16",
+   "type": "building",
+   "x": 1524.4,
+   "y": 1322.6,
+   "lat": 32.777597,
+   "lng": -117.066636
+  },
+  {
+   "id": "b52",
+   "name": "SDSU Garage",
+   "type": "building",
+   "x": 1457.1,
+   "y": 1345.1,
+   "lat": 32.777423,
+   "lng": -117.066484
+  },
+  {
+   "id": "j1",
+   "name": "Walkway junction 1",
+   "type": "junction",
+   "x": 549.2,
+   "y": 795.8,
+   "lat": 32.773737,
+   "lng": -117.071202
+  },
+  {
+   "id": "j2",
+   "name": "Walkway junction 2",
+   "type": "junction",
+   "x": 650.1,
+   "y": 795.8,
+   "lat": 32.774051,
+   "lng": -117.071162
+  },
+  {
+   "id": "j3",
+   "name": "Walkway junction 3",
+   "type": "junction",
+   "x": 784.6,
+   "y": 795.8,
+   "lat": 32.774469,
+   "lng": -117.071109
+  },
+  {
+   "id": "j4",
+   "name": "Walkway junction 4",
+   "type": "junction",
+   "x": 941.5,
+   "y": 795.8,
+   "lat": 32.774958,
+   "lng": -117.071047
+  },
+  {
+   "id": "j5",
+   "name": "Walkway junction 5",
+   "type": "junction",
+   "x": 1076.0,
+   "y": 795.8,
+   "lat": 32.775376,
+   "lng": -117.070994
+  },
+  {
+   "id": "j6",
+   "name": "Walkway junction 6",
+   "type": "junction",
+   "x": 1165.7,
+   "y": 795.8,
+   "lat": 32.775656,
+   "lng": -117.070959
+  },
+  {
+   "id": "j7",
+   "name": "Walkway junction 7",
+   "type": "junction",
+   "x": 1255.4,
+   "y": 829.5,
+   "lat": 32.775988,
+   "lng": -117.070656
+  },
+  {
+   "id": "j8",
+   "name": "Walkway junction 8",
+   "type": "junction",
+   "x": 1367.5,
+   "y": 829.5,
+   "lat": 32.776337,
+   "lng": -117.070612
+  },
+  {
+   "id": "j9",
+   "name": "Walkway junction 9",
+   "type": "junction",
+   "x": 1479.6,
+   "y": 851.9,
+   "lat": 32.776721,
+   "lng": -117.07039
+  },
+  {
+   "id": "j10",
+   "name": "Walkway junction 10",
+   "type": "junction",
+   "x": 650.1,
+   "y": 560.4,
+   "lat": 32.773682,
+   "lng": -117.073031
+  },
+  {
+   "id": "j11",
+   "name": "Walkway junction 11",
+   "type": "junction",
+   "x": 784.6,
+   "y": 515.6,
+   "lat": 32.774031,
+   "lng": -117.073333
+  },
+  {
+   "id": "j12",
+   "name": "Walkway junction 12",
+   "type": "junction",
+   "x": 941.5,
+   "y": 515.6,
+   "lat": 32.774519,
+   "lng": -117.073271
+  },
+  {
+   "id": "j13",
+   "name": "Walkway junction 13",
+   "type": "junction",
+   "x": 1076.0,
+   "y": 482.0,
+   "lat": 32.774885,
+   "lng": -117.073485
+  },
+  {
+   "id": "j14",
+   "name": "Walkway junction 14",
+   "type": "junction",
+   "x": 1210.5,
+   "y": 448.4,
+   "lat": 32.775251,
+   "lng": -117.073698
+  },
+  {
+   "id": "j15",
+   "name": "Walkway junction 15",
+   "type": "junction",
+   "x": 1345.1,
+   "y": 538.0,
+   "lat": 32.77581,
+   "lng": -117.072934
+  },
+  {
+   "id": "j16",
+   "name": "Walkway junction 16",
+   "type": "junction",
+   "x": 1479.6,
+   "y": 560.4,
+   "lat": 32.776264,
+   "lng": -117.072703
+  },
+  {
+   "id": "j17",
+   "name": "Walkway junction 17",
+   "type": "junction",
+   "x": 941.5,
+   "y": 941.5,
+   "lat": 32.775186,
+   "lng": -117.069891
+  },
+  {
+   "id": "j18",
+   "name": "Walkway junction 18",
+   "type": "junction",
+   "x": 941.5,
+   "y": 1053.6,
+   "lat": 32.775362,
+   "lng": -117.069001
+  },
+  {
+   "id": "j19",
+   "name": "Walkway junction 19",
+   "type": "junction",
+   "x": 1076.0,
+   "y": 1053.6,
+   "lat": 32.77578,
+   "lng": -117.068948
+  },
+  {
+   "id": "j20",
+   "name": "Walkway junction 20",
+   "type": "junction",
+   "x": 1210.5,
+   "y": 1031.2,
+   "lat": 32.776164,
+   "lng": -117.069073
+  },
+  {
+   "id": "j21",
+   "name": "Walkway junction 21",
+   "type": "junction",
+   "x": 1345.1,
+   "y": 1120.9,
+   "lat": 32.776723,
+   "lng": -117.068308
+  },
+  {
+   "id": "j22",
+   "name": "Walkway junction 22",
+   "type": "junction",
+   "x": 650.1,
+   "y": 919.1,
+   "lat": 32.774244,
+   "lng": -117.070184
+  },
+  {
+   "id": "j23",
+   "name": "Walkway junction 23",
+   "type": "junction",
+   "x": 650.1,
+   "y": 1053.6,
+   "lat": 32.774455,
+   "lng": -117.069116
+  },
+  {
+   "id": "j24",
+   "name": "Walkway junction 24",
+   "type": "junction",
+   "x": 807.0,
+   "y": 1188.1,
+   "lat": 32.775154,
+   "lng": -117.067987
+  },
+  {
+   "id": "j25",
+   "name": "Walkway junction 25",
+   "type": "junction",
+   "x": 1008.8,
+   "y": 1300.2,
+   "lat": 32.775957,
+   "lng": -117.067017
+  },
+  {
+   "id": "j26",
+   "name": "Walkway junction 26",
+   "type": "junction",
+   "x": 1255.4,
+   "y": 1255.4,
+   "lat": 32.776655,
+   "lng": -117.067276
+  },
+  {
+   "id": "j27",
+   "name": "Walkway junction 27",
+   "type": "junction",
+   "x": 538.0,
+   "y": 560.4,
+   "lat": 32.773333,
+   "lng": -117.073075
+  },
+  {
+   "id": "j28",
+   "name": "Walkway junction 28",
+   "type": "junction",
+   "x": 538.0,
+   "y": 1008.8,
+   "lat": 32.774036,
+   "lng": -117.069516
+  },
+  {
+   "id": "j29",
+   "name": "Walkway junction 29",
+   "type": "junction",
+   "x": 538.0,
+   "y": 1233.0,
+   "lat": 32.774387,
+   "lng": -117.067737
+  },
+  {
+   "id": "j30",
+   "name": "Walkway junction 30",
+   "type": "junction",
+   "x": 807.0,
+   "y": 269.0,
+   "lat": 32.773714,
+   "lng": -117.075282
+  },
+  {
+   "id": "j31",
+   "name": "Walkway junction 31",
+   "type": "junction",
+   "x": 941.5,
+   "y": 246.6,
+   "lat": 32.774098,
+   "lng": -117.075406
+  },
+  {
+   "id": "j32",
+   "name": "Walkway junction 32",
+   "type": "junction",
+   "x": 672.5,
+   "y": 134.5,
+   "lat": 32.773085,
+   "lng": -117.076402
+  },
+  {
+   "id": "j33",
+   "name": "Walkway junction 33",
+   "type": "junction",
+   "x": 336.3,
+   "y": 582.9,
+   "lat": 32.772741,
+   "lng": -117.072976
+  },
+  {
+   "id": "j34",
+   "name": "Walkway junction 34",
+   "type": "junction",
+   "x": 1457.1,
+   "y": 1255.4,
+   "lat": 32.777283,
+   "lng": -117.067196
+  },
+  {
+   "id": "j35",
+   "name": "Walkway junction 35",
+   "type": "junction",
+   "x": 336.3,
+   "y": 1008.8,
+   "lat": 32.773408,
+   "lng": -117.069596
+  },
+  {
+   "id": "j36",
+   "name": "Walkway junction 36",
+   "type": "junction",
+   "x": 1569.2,
+   "y": 336.3,
+   "lat": 32.776192,
+   "lng": -117.074446
+  }
+ ],
+ "edges": [
+  {
+   "from": "b1",
+   "to": "j30",
+   "px": 95.8,
+   "m": 56.5
+  },
+  {
+   "from": "b10",
+   "to": "j3",
+   "px": 110.4,
+   "m": 65.1
+  },
+  {
+   "from": "b10",
+   "to": "j4",
+   "px": 71.7,
+   "m": 42.3
+  },
+  {
+   "from": "b11",
+   "to": "j12",
+   "px": 71.8,
+   "m": 42.3
+  },
+  {
+   "from": "b12",
+   "to": "j22",
+   "px": 105.7,
+   "m": 62.4
+  },
+  {
+   "from": "b12",
+   "to": "j3",
+   "px": 80.8,
+   "m": 47.7
+  },
+  {
+   "from": "b13",
+   "to": "j17",
+   "px": 112.1,
+   "m": 66.1
+  },
+  {
+   "from": "b13",
+   "to": "j5",
+   "px": 90.4,
+   "m": 53.3
+  },
+  {
+   "from": "b14",
+   "to": "j17",
+   "px": 71.7,
+   "m": 42.3
+  },
+  {
+   "from": "b15",
+   "to": "j6",
+   "px": 70.9,
+   "m": 41.8
+  },
+  {
+   "from": "b15",
+   "to": "j7",
+   "px": 60.4,
+   "m": 35.6
+  },
+  {
+   "from": "b16",
+   "to": "j7",
+   "px": 117.0,
+   "m": 69.0
+  },
+  {
+   "from": "b16",
+   "to": "j8",
+   "px": 136.9,
+   "m": 80.7
+  },
+  {
+   "from": "b17",
+   "to": "j8",
+   "px": 117.0,
+   "m": 69.0
+  },
+  {
+   "from": "b17",
+   "to": "j9",
+   "px": 155.7,
+   "m": 91.9
+  },
+  {
+   "from": "b18",
+   "to": "j14",
+   "px": 92.5,
+   "m": 54.5
+  },
+  {
+   "from": "b18",
+   "to": "j15",
+   "px": 80.8,
+   "m": 47.7
+  },
+  {
+   "from": "b19",
+   "to": "j14",
+   "px": 136.5,
+   "m": 80.5
+  },
+  {
+   "from": "b19",
+   "to": "j15",
+   "px": 112.1,
+   "m": 66.1
+  },
+  {
+   "from": "b2",
+   "to": "j30",
+   "px": 46.2,
+   "m": 27.2
+  },
+  {
+   "from": "b20",
+   "to": "j14",
+   "px": 56.1,
+   "m": 33.1
+  },
+  {
+   "from": "b21",
+   "to": "j16",
+   "px": 25.0,
+   "m": 14.8
+  },
+  {
+   "from": "b22",
+   "to": "j8",
+   "px": 180.7,
+   "m": 106.6
+  },
+  {
+   "from": "b22",
+   "to": "j9",
+   "px": 120.7,
+   "m": 71.2
+  },
+  {
+   "from": "b23",
+   "to": "j8",
+   "px": 56.0,
+   "m": 33.0
+  },
+  {
+   "from": "b23",
+   "to": "j9",
+   "px": 68.2,
+   "m": 40.3
+  },
+  {
+   "from": "b24",
+   "to": "j7",
+   "px": 143.5,
+   "m": 84.7
+  },
+  {
+   "from": "b24",
+   "to": "j8",
+   "px": 114.2,
+   "m": 67.4
+  },
+  {
+   "from": "b25",
+   "to": "j20",
+   "px": 95.8,
+   "m": 56.5
+  },
+  {
+   "from": "b25",
+   "to": "j7",
+   "px": 112.6,
+   "m": 66.4
+  },
+  {
+   "from": "b26",
+   "to": "j21",
+   "px": 142.6,
+   "m": 84.1
+  },
+  {
+   "from": "b26",
+   "to": "j9",
+   "px": 171.4,
+   "m": 101.1
+  },
+  {
+   "from": "b27",
+   "to": "j21",
+   "px": 67.3,
+   "m": 39.7
+  },
+  {
+   "from": "b28",
+   "to": "j19",
+   "px": 121.3,
+   "m": 71.6
+  },
+  {
+   "from": "b28",
+   "to": "j20",
+   "px": 103.3,
+   "m": 61.0
+  },
+  {
+   "from": "b29",
+   "to": "j17",
+   "px": 103.3,
+   "m": 61.0
+  },
+  {
+   "from": "b29",
+   "to": "j18",
+   "px": 90.3,
+   "m": 53.3
+  },
+  {
+   "from": "b3",
+   "to": "j32",
+   "px": 95.1,
+   "m": 56.1
+  },
+  {
+   "from": "b30",
+   "to": "j24",
+   "px": 79.2,
+   "m": 46.7
+  },
+  {
+   "from": "b31",
+   "to": "j18",
+   "px": 100.9,
+   "m": 59.5
+  },
+  {
+   "from": "b31",
+   "to": "j24",
+   "px": 138.6,
+   "m": 81.8
+  },
+  {
+   "from": "b32",
+   "to": "j25",
+   "px": 89.7,
+   "m": 52.9
+  },
+  {
+   "from": "b33",
+   "to": "j19",
+   "px": 149.5,
+   "m": 88.2
+  },
+  {
+   "from": "b33",
+   "to": "j25",
+   "px": 142.7,
+   "m": 84.2
+  },
+  {
+   "from": "b34",
+   "to": "j21",
+   "px": 100.3,
+   "m": 59.2
+  },
+  {
+   "from": "b34",
+   "to": "j26",
+   "px": 89.7,
+   "m": 52.9
+  },
+  {
+   "from": "b35",
+   "to": "j26",
+   "px": 65.3,
+   "m": 38.5
+  },
+  {
+   "from": "b36",
+   "to": "j25",
+   "px": 60.4,
+   "m": 35.6
+  },
+  {
+   "from": "b37",
+   "to": "j22",
+   "px": 67.3,
+   "m": 39.7
+  },
+  {
+   "from": "b37",
+   "to": "j23",
+   "px": 67.2,
+   "m": 39.6
+  },
+  {
+   "from": "b38",
+   "to": "j27",
+   "px": 96.4,
+   "m": 56.9
+  },
+  {
+   "from": "b38",
+   "to": "j33",
+   "px": 127.8,
+   "m": 75.4
+  },
+  {
+   "from": "b39",
+   "to": "j1",
+   "px": 136.8,
+   "m": 80.7
+  },
+  {
+   "from": "b39",
+   "to": "j33",
+   "px": 168.1,
+   "m": 99.2
+  },
+  {
+   "from": "b4",
+   "to": "j13",
+   "px": 124.6,
+   "m": 73.5
+  },
+  {
+   "from": "b4",
+   "to": "j14",
+   "px": 147.0,
+   "m": 86.7
+  },
+  {
+   "from": "b40",
+   "to": "j27",
+   "px": 161.6,
+   "m": 95.3
+  },
+  {
+   "from": "b40",
+   "to": "j33",
+   "px": 192.9,
+   "m": 113.8
+  },
+  {
+   "from": "b41",
+   "to": "j1",
+   "px": 242.0,
+   "m": 142.8
+  },
+  {
+   "from": "b41",
+   "to": "j33",
+   "px": 158.5,
+   "m": 93.5
+  },
+  {
+   "from": "b42",
+   "to": "j1",
+   "px": 112.1,
+   "m": 66.1
+  },
+  {
+   "from": "b42",
+   "to": "j28",
+   "px": 165.5,
+   "m": 97.6
+  },
+  {
+   "from": "b43",
+   "to": "j28",
+   "px": 40.4,
+   "m": 23.8
+  },
+  {
+   "from": "b44",
+   "to": "j35",
+   "px": 136.4,
+   "m": 80.5
+  },
+  {
+   "from": "b45",
+   "to": "j29",
+   "px": 234.1,
+   "m": 138.1
+  },
+  {
+   "from": "b45",
+   "to": "j35",
+   "px": 292.3,
+   "m": 172.4
+  },
+  {
+   "from": "b46",
+   "to": "j29",
+   "px": 255.9,
+   "m": 151.0
+  },
+  {
+   "from": "b46",
+   "to": "j35",
+   "px": 348.2,
+   "m": 205.4
+  },
+  {
+   "from": "b47",
+   "to": "j29",
+   "px": 92.4,
+   "m": 54.5
+  },
+  {
+   "from": "b48",
+   "to": "j27",
+   "px": 525.2,
+   "m": 309.8
+  },
+  {
+   "from": "b48",
+   "to": "j33",
+   "px": 411.6,
+   "m": 242.8
+  },
+  {
+   "from": "b49",
+   "to": "j16",
+   "px": 131.2,
+   "m": 77.4
+  },
+  {
+   "from": "b49",
+   "to": "j36",
+   "px": 110.3,
+   "m": 65.1
+  },
+  {
+   "from": "b5",
+   "to": "j30",
+   "px": 135.0,
+   "m": 79.6
+  },
+  {
+   "from": "b5",
+   "to": "j31",
+   "px": 131.2,
+   "m": 77.4
+  },
+  {
+   "from": "b50",
+   "to": "j36",
+   "px": 96.5,
+   "m": 56.9
+  },
+  {
+   "from": "b51",
+   "to": "j34",
+   "px": 95.1,
+   "m": 56.1
+  },
+  {
+   "from": "b52",
+   "to": "j34",
+   "px": 89.7,
+   "m": 52.9
+  },
+  {
+   "from": "b6",
+   "to": "j14",
+   "px": 226.7,
+   "m": 133.8
+  },
+  {
+   "from": "b6",
+   "to": "j31",
+   "px": 303.5,
+   "m": 179.1
+  },
+  {
+   "from": "b7",
+   "to": "j10",
+   "px": 111.4,
+   "m": 65.7
+  },
+  {
+   "from": "b7",
+   "to": "j11",
+   "px": 144.4,
+   "m": 85.2
+  },
+  {
+   "from": "b8",
+   "to": "j11",
+   "px": 158.7,
+   "m": 93.6
+  },
+  {
+   "from": "b8",
+   "to": "j3",
+   "px": 148.4,
+   "m": 87.6
+  },
+  {
+   "from": "b9",
+   "to": "j4",
+   "px": 137.4,
+   "m": 81.1
+  },
+  {
+   "from": "b9",
+   "to": "j5",
+   "px": 143.8,
+   "m": 84.8
+  },
+  {
+   "from": "j1",
+   "to": "j2",
+   "px": 100.9,
+   "m": 59.5
+  },
+  {
+   "from": "j1",
+   "to": "j27",
+   "px": 235.7,
+   "m": 139.0
+  },
+  {
+   "from": "j1",
+   "to": "j28",
+   "px": 213.3,
+   "m": 125.8
+  },
+  {
+   "from": "j10",
+   "to": "j11",
+   "px": 141.8,
+   "m": 83.6
+  },
+  {
+   "from": "j10",
+   "to": "j2",
+   "px": 235.4,
+   "m": 138.9
+  },
+  {
+   "from": "j10",
+   "to": "j27",
+   "px": 112.1,
+   "m": 66.1
+  },
+  {
+   "from": "j11",
+   "to": "j12",
+   "px": 156.9,
+   "m": 92.6
+  },
+  {
+   "from": "j11",
+   "to": "j30",
+   "px": 247.6,
+   "m": 146.1
+  },
+  {
+   "from": "j12",
+   "to": "j13",
+   "px": 138.6,
+   "m": 81.8
+  },
+  {
+   "from": "j12",
+   "to": "j4",
+   "px": 280.2,
+   "m": 165.3
+  },
+  {
+   "from": "j13",
+   "to": "j14",
+   "px": 138.6,
+   "m": 81.8
+  },
+  {
+   "from": "j13",
+   "to": "j31",
+   "px": 271.1,
+   "m": 159.9
+  },
+  {
+   "from": "j14",
+   "to": "j15",
+   "px": 161.7,
+   "m": 95.4
+  },
+  {
+   "from": "j14",
+   "to": "j31",
+   "px": 336.3,
+   "m": 198.4
+  },
+  {
+   "from": "j15",
+   "to": "j16",
+   "px": 136.4,
+   "m": 80.4
+  },
+  {
+   "from": "j15",
+   "to": "j8",
+   "px": 292.4,
+   "m": 172.5
+  },
+  {
+   "from": "j16",
+   "to": "j36",
+   "px": 241.3,
+   "m": 142.4
+  },
+  {
+   "from": "j16",
+   "to": "j9",
+   "px": 291.5,
+   "m": 172.0
+  },
+  {
+   "from": "j17",
+   "to": "j18",
+   "px": 112.1,
+   "m": 66.1
+  },
+  {
+   "from": "j17",
+   "to": "j4",
+   "px": 145.7,
+   "m": 86.0
+  },
+  {
+   "from": "j17",
+   "to": "j5",
+   "px": 198.3,
+   "m": 117.0
+  },
+  {
+   "from": "j18",
+   "to": "j19",
+   "px": 134.5,
+   "m": 79.3
+  },
+  {
+   "from": "j18",
+   "to": "j23",
+   "px": 291.4,
+   "m": 171.9
+  },
+  {
+   "from": "j18",
+   "to": "j24",
+   "px": 190.2,
+   "m": 112.2
+  },
+  {
+   "from": "j19",
+   "to": "j20",
+   "px": 136.4,
+   "m": 80.4
+  },
+  {
+   "from": "j19",
+   "to": "j5",
+   "px": 257.8,
+   "m": 152.1
+  },
+  {
+   "from": "j2",
+   "to": "j22",
+   "px": 123.3,
+   "m": 72.7
+  },
+  {
+   "from": "j2",
+   "to": "j3",
+   "px": 134.5,
+   "m": 79.3
+  },
+  {
+   "from": "j20",
+   "to": "j21",
+   "px": 161.8,
+   "m": 95.4
+  },
+  {
+   "from": "j20",
+   "to": "j7",
+   "px": 206.6,
+   "m": 121.9
+  },
+  {
+   "from": "j21",
+   "to": "j26",
+   "px": 161.7,
+   "m": 95.4
+  },
+  {
+   "from": "j21",
+   "to": "j9",
+   "px": 300.8,
+   "m": 177.4
+  },
+  {
+   "from": "j22",
+   "to": "j23",
+   "px": 134.5,
+   "m": 79.3
+  },
+  {
+   "from": "j22",
+   "to": "j3",
+   "px": 182.5,
+   "m": 107.6
+  },
+  {
+   "from": "j23",
+   "to": "j28",
+   "px": 120.7,
+   "m": 71.2
+  },
+  {
+   "from": "j24",
+   "to": "j25",
+   "px": 230.8,
+   "m": 136.2
+  },
+  {
+   "from": "j24",
+   "to": "j29",
+   "px": 272.7,
+   "m": 160.9
+  },
+  {
+   "from": "j25",
+   "to": "j26",
+   "px": 250.6,
+   "m": 147.9
+  },
+  {
+   "from": "j26",
+   "to": "j34",
+   "px": 201.7,
+   "m": 119.0
+  },
+  {
+   "from": "j27",
+   "to": "j32",
+   "px": 446.6,
+   "m": 263.5
+  },
+  {
+   "from": "j27",
+   "to": "j33",
+   "px": 203.0,
+   "m": 119.7
+  },
+  {
+   "from": "j28",
+   "to": "j29",
+   "px": 224.2,
+   "m": 132.3
+  },
+  {
+   "from": "j28",
+   "to": "j35",
+   "px": 201.7,
+   "m": 119.0
+  },
+  {
+   "from": "j29",
+   "to": "j35",
+   "px": 301.6,
+   "m": 177.9
+  },
+  {
+   "from": "j3",
+   "to": "j4",
+   "px": 156.9,
+   "m": 92.6
+  },
+  {
+   "from": "j30",
+   "to": "j31",
+   "px": 136.4,
+   "m": 80.4
+  },
+  {
+   "from": "j30",
+   "to": "j32",
+   "px": 190.2,
+   "m": 112.2
+  },
+  {
+   "from": "j33",
+   "to": "j35",
+   "px": 425.9,
+   "m": 251.3
+  },
+  {
+   "from": "j4",
+   "to": "j5",
+   "px": 134.5,
+   "m": 79.3
+  },
+  {
+   "from": "j5",
+   "to": "j6",
+   "px": 89.7,
+   "m": 52.9
+  },
+  {
+   "from": "j6",
+   "to": "j7",
+   "px": 95.8,
+   "m": 56.5
+  },
+  {
+   "from": "j7",
+   "to": "j8",
+   "px": 112.1,
+   "m": 66.1
+  },
+  {
+   "from": "j8",
+   "to": "j9",
+   "px": 114.3,
+   "m": 67.4
+  }
+ ]
+}

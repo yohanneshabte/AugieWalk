@@ -1,0 +1,2 @@
+pytest>=7
+Pillow>=9  # only for tools/ image optimisation
